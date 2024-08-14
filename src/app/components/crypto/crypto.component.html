@@ -1,0 +1,8 @@
+<div class="cryptos-container">
+    <div class="crypto-card" *ngFor="let crypto of data">
+        <h2>Name: {{ crypto.symbol }}</h2>
+        <p>Volume: {{ crypto.volume }}</p>
+        <p>Low Price: ${{ crypto.lowPrice }}</p>
+        <p>high Price: ${{ crypto.highPrice }}</p>
+    </div>
+</div>

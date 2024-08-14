@@ -1,0 +1,40 @@
+header {
+  padding: 1rem;
+  background-color: #1e272e; /* Darker background for the header */
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added shadow for a subtle 3D effect */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centered navigation items */
+}
+
+li {
+  margin: 0 10px; /* Added some spacing between the items */
+}
+
+li a {
+  display: block;
+  color: #f5f6fa; /* Lighter text color for better contrast */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners for links */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+li a:hover:not(.active) {
+  background-color: #3d3d3d; /* Softer hover background color */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.active {
+  background-color: #34ace0; /* Bright blue for the active link */
+  color: #ffffff;
+  font-weight: bold; /* Bold text for active link */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for active link */
+}

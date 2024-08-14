@@ -1,0 +1,27 @@
+.about-container {
+  padding: 40px;
+  text-align: center;
+  height: 500px;
+  background-color: #1e272e; /* Dark background for contrast */
+  color: #f5f6fa; /* Light text color for readability */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffdd59; /* Bright yellow for the heading */
+  text-transform: uppercase; /* Uppercase text for a bold statement */
+  letter-spacing: 2px; /* Spacing between letters for readability */
+}
+
+.about-container p {
+  font-size: 1.3em;
+  line-height: 1.8;
+  color: #d2dae2; /* Softer light gray for paragraph text */
+  margin-bottom: 25px;
+  max-width: 800px; /* Restrict width for better readability */
+  margin-left: auto;
+  margin-right: auto;
+}

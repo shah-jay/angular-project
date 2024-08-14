@@ -1,0 +1,29 @@
+/* Styling for the content container */
+.content {
+    padding: 40px; /* Increased padding for better spacing */
+    text-align: center; /* Center text inside the content container */
+    background-color: #1e272e; /* Dark background for consistency */
+    color: #f5f6fa; /* Light text color for readability */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Optional: Add some additional styling for text */
+.content p {
+    font-size: 1.3em; /* Slightly larger text for better readability */
+    line-height: 1.8; /* Increase line height for better readability */
+    color: #d2dae2; /* Softer light gray for paragraph text */
+    margin-bottom: 25px; /* Space below paragraphs */
+    max-width: 800px; /* Restrict width for better readability */
+    margin-left: auto;
+    margin-right: auto; /* Center text */
+}
+
+/* Styling for images inside content */
+.content img {
+    width: 100%; /* Responsive width */
+    max-width: 600px; /* Maximum width to ensure it doesn't get too large */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
